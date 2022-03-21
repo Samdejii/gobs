@@ -374,6 +374,21 @@ h6 {
   right: 15px;
 }
 
+.disabled {
+  color: currentColor;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.disabled :hover{
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+
+
 /* Mobile Navigation */
 
 .mobile-nav {

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 class Home extends React.Component{
     render() {
         return (
-          <body>
-<div class="container-fluid">
+          <>
+<div id="container-fluid">
 
 <header id="header">
       <div id="topbar">
@@ -40,12 +40,24 @@ class Home extends React.Component{
             <li><Link to="/Investors">Investors</Link></li>
             <li><Link to="/Partners">Partners</Link></li>
             <li><Link to="/Team">Team</Link></li>
+            <li class="disabled"><Link to="">Carrer</Link></li>
+            <li class="disabled"><Link to="">News</Link></li>
+            <li class="disabled"><Link to="">Leadership</Link></li>
+            <li class="disabled"><Link to="">Financial Statments</Link></li>
           </ul>
           </li>
             <li><Link to="/Pp" type="button" class="btn btn-dark ml-3 p-2 mr-3" style={{color:'white'}}>Get Gobs</Link></li>
+
+                      
+
           </ul>
+
+          
+           
+          
           </nav>
         </nav>
+             
       </div>
     </header>
 
@@ -479,7 +491,7 @@ class Home extends React.Component{
         <div class="row p-2">
         <div class="col-md-1"></div>
 
-          <div class="col-md-4 mb-5">
+          <div class="col-md-3 mb-5">
           <div class="logo float-left">
          <span>
          <img src="assets/img/GOBS-COLOR-PLAIN.png" alt="" style={{width:'20%',}} />
@@ -519,12 +531,16 @@ class Home extends React.Component{
             <li><a href="/#" style={{color:'black',}}><span>Blog</span></a></li>
           </ul>
 </div>
-          <div class="col-md-1">
+          <div class="col-md-2 mt-5">
             <nav class="main-nav">
+          <h5 class="ftco-heading-2" style={{color:'grey',}}>Socials</h5>
           <ul clss="list-unstyled mt-2">
-            <li><a href="/#" style={{color:'black',}}><span class="fa fa-twitter float-left d-block"></span></a></li>
-            <li><a href="/#" style={{color:'black',}}><span class="fa fa-facebook float-left d-block"></span></a></li>
-            <li><a href="/#" style={{color:'black',}}><span class="fa fa-instagram float-left d-block"></span></a></li> 
+            <li><a href="/#"><span class="fa fa-twitter float-left d-block p-2" 
+            style={{color:'white',background:'#007F7F',borderRadius:'50%'}}></span></a></li>
+            <li><a href="/#"><span class="fa fa-facebook float-left d-block p-2"
+            style={{color:'white',background:'#007F7F',borderRadius:'70%'}}></span></a></li>
+            <li><a href="/#"><span class="fa fa-instagram float-left d-block p-2"
+            style={{color:'white',background:'#007F7F',borderRadius:'50%'}}></span></a></li> 
           </ul>
           </nav>
           </div>
@@ -562,7 +578,7 @@ class Home extends React.Component{
   <script src="assets/js/main.js"></script>
 
         </div>
-        </body>
+        </>
         );
     }
 }

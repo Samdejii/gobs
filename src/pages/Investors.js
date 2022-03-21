@@ -6,7 +6,7 @@ export default function Investors() {
     <React.Fragment>
 
 
-<div class="container-fluid">
+<div id="container-fluid">
 
 <header id="header">
       <div id="topbar">
