@@ -62,22 +62,7 @@ export default function Pp() {
     </header>
 
 
-    <div class="container-fluid">
-        <div class="row p-2" style={{background:'#00AEAE'}}>
-            <div class="col-md-4"></div>
-            <div class="col-md-5 ">
-            <nav class="main-na">
-          <ul>
-            <li><Link to="/Pp">Privacy Policy</Link></li>
-            <li><Link to="/Sp">Security Policy</Link></li>
-            <li><Link to="/Terms">Terms Of Use</Link></li>
-          </ul>
-              </nav>
-            </div>
-            <div class="col-md-3"></div>
-        
-    </div>
-</div>
+
 
  
     <section id="intro" class="clearfix mt-8 mb-5" style={{background:'white'}}>

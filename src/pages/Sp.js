@@ -51,22 +51,7 @@ export default function Sp() {
     </header>
 
 
-    <div class="container-fluid">
-        <div class="row p-2" style={{background:'#00AEAE'}}>
-            <div class="col-md-4"></div>
-            <div class="col-md-5 ">
-            <nav class="main-na">
-          <ul>
-            <li><Link to="/Pp">Privacy Policy</Link></li>
-            <li><Link to="/Sp">Security Policy</Link></li>
-            <li><Link to="/Terms">Terms Of Use</Link></li>
-          </ul>
-              </nav>
-            </div>
-            <div class="col-md-3"></div>
-        
-    </div>
-</div>
+
 
  
     <section id="intro" class="clearfix mt-8 mb-5" style={{background:'white'}}>
@@ -275,7 +260,7 @@ export default function Sp() {
     <div class="col-md-2 mt-5">
               <h5 class="ftco-heading-2" style={{color:'grey',}}>Legal</h5>
               <ul class="list-unstyled">
-                <li class="p-1 mb-1"><a href="/#"  style={{color:'black',}}><span>Terms of use</span></a></li>
+                <li class="p-1 mb-1"><a href="/Terms"  style={{color:'black',}}><span>Terms of use</span></a></li>
                 <li class="p-1 mb-1"><Link to="/Pp" style={{color:'black',}}><span>Privacy policy</span></Link></li>
                 <li class="p-1 mb-1"><Link to="/Sp" style={{color:'black',}}><span>Security policy</span></Link></li>
               </ul>

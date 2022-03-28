@@ -146,7 +146,7 @@ export default function Contact() {
     <div class="col-md-2 mt-5">
               <h5 class="ftco-heading-2" style={{color:'grey',}}>Legal</h5>
               <ul class="list-unstyled">
-                <li class="p-1 mb-1"><a href="/#"  style={{color:'black',}}><span>Terms of use</span></a></li>
+                <li class="p-1 mb-1"><a href="/Terms"  style={{color:'black',}}><span>Terms of use</span></a></li>
                 <li class="p-1 mb-1"><Link to="/Pp" style={{color:'black',}}><span>Privacy policy</span></Link></li>
                 <li class="p-1 mb-1"><Link to="/Sp" style={{color:'black',}}><span>Security policy</span></Link></li>
               </ul>
