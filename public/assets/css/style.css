@@ -387,7 +387,13 @@ h6 {
   text-decoration: none;
 }
 
-
+.green {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background: url("../img/brand-voice.jpg") center top no-repeat;
+  background-size: cover;
+}
 
 /* Mobile Navigation */
 

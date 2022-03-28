@@ -10,6 +10,8 @@ import Team from './Team';
 import Pp from './Pp';
 import Sp from './Sp';
 import Terms from './Terms';
+import Pk from './Pk';
+import Contact from './Contact';
 
 export default function RouterPage() {
   return (
@@ -26,6 +28,8 @@ export default function RouterPage() {
                 <Route path="/Pp" element={ <Pp /> } />
                 <Route path="/Sp" element={ <Sp /> } />
                 <Route path="/Terms" element={ <Terms /> } />
+                <Route path="/Pk" element={ <Pk /> } />
+                <Route path="/Contact" element={ <Contact /> } />
             </Routes>
         </Router>
     </div>
