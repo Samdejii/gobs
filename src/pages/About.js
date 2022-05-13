@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 export default function About() {
   return (
     <React.Fragment>
+    <body class="mobile-nav-active clearfix">
+      <button type="button" class="mobile-nav-toggle d-lg-none"><i class="fa fa-times"></i></button>
 
 <div id="container-fluid">
 
@@ -352,6 +354,7 @@ export default function About() {
   <script src="assets/js/main.js"></script>
 
         </div>
+        </body>
     </React.Fragment>
   )
 }

@@ -86,9 +86,8 @@ class Home extends React.Component{
           </div>
         </div>
   
-        <div class="col-md-4 col-sm-12 intro-img order-md-last order-last clearfix mt-8 p-5">
-          <img src="assets/img/Group 21.png" alt="" style={{position:'absolute', width:'90%', }}/>
-          <img src="assets/img/image 9.png" alt="" style={{position:'relative', width:'90%', }}/>
+        <div class="col-md-4 col-sm-12 intro-img order-md-last order-last clearfix mt-8 p-2">
+          <img src="assets/img/Mockup.png" alt="" style={{position:'relative', width:'100%', }}/>
         </div>
       </div>
 
@@ -203,16 +202,13 @@ class Home extends React.Component{
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active  d-flex justify-content-center">
-      <img class="d-block" src="assets/img/Yellow.png" alt="First slide" style={{position:'absolute'}}/>
-      <img class="d-block " src="assets/img/lf20_L6fWWq.json].png" alt="First slide" />
+      <img class="d-block" src="assets/img/Mockup 1.png" alt="First slide" style={{width:'110%'}}/>
     </div>
     <div class="carousel-item">
-      <img class="d-block" src="assets/img/Yellow.png" alt="First slide" style={{position:'absolute'}}/>
-      <img class="d-block " src="assets/img/lf20_L6fWWq.json].png" alt="First slide" />
+      <img class="d-block" src="assets/img/Mockup.png" alt="Second slide"/>
     </div>
     <div class="carousel-item">
-      <img class="d-block" src="assets/img/Yellow.png" alt="First slide" style={{position:'absolute'}}/>
-      <img class="d-block " src="assets/img/lf20_L6fWWq.json].png" alt="First slide" />
+      <img class="d-block" src="assets/img/Yellow.png" alt="Third slide"/>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -221,7 +217,7 @@ class Home extends React.Component{
   </a>
   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only" style={{color:'black', position:'absolute'}}>Next</span>
+    <span class="sr-only" style={{color:'black',}}>Next</span>
   </a>
 </div>
           </div>
@@ -270,14 +266,15 @@ class Home extends React.Component{
 
         <div class="row">
 
-          <div class="col-lg-6 d-flex justify-content-center">
-            <div class="why-us-img">
-            <img class="d-block" src="assets/img/Yellow.png" alt="First slide" style={{position:'relative'}}/>
+          <div class="col-lg-6 d-flex justify-content-center ">
+            <div class="why-us-img ">
+            <img class="d-block" src="assets/img/Mockup.png" alt="First slide" style={{position:'relative'}}/>
             </div>
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-6 p-5">
             <div class="why-us-content">
+              <br/><br/><br/>
               <h3>Get started with Gobs in 9-ish minutes!</h3>
 
               <div class="features wow bounceInUp clearfix">
@@ -317,7 +314,7 @@ class Home extends React.Component{
     </section>
 
     
-    <section id="call-to-action" class="wow fadeInUp">
+    <section id="call-to-action" class="wow fadeInUp" style={{color:"#E0ECEC",}}>
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12 text-center text-lg-center">
@@ -325,51 +322,69 @@ class Home extends React.Component{
             <p class="cta-text">No credit checks, no hassle for the employer. Advances have never been so simple.</p>
           </div>
           <div class="container-fluid">
-            <div class="row text-center p-3">
-            <div class="col-md-1"></div>
 
-            <div class="col-md-3">
-              <img src="assets/img/lendsqr 1.png" alt="" class="mr-1 p-4 mt-4" style={{width:'40%', background:'white'}}/>
-            <h4 class="mt-3">Why choose Gobs</h4>
-            <p class="cta-text">No credit checks, no hassle for the employer. Advances have never been so simple.</p>
+            <div class="row text-center p-2">
+              <div class="col-md-3"></div>
 
-            </div>
-            <div class="col-md-4">
-              <img src="assets/img/lendsqr 1.png" alt="" class="mr-1 p-4 mt-4" style={{width:'30%', background:'white'}}/>
-            <h4 class="mt-3">Why choose Gobs</h4>
-            <p class="cta-text">No credit checks, no hassle for the employer. Advances have never been so simple.</p>
-            </div>
-            <div class="col-md-3">
-              <img src="assets/img/lendsqr 1.png" alt="" class="mr-1 p-4 mt-4" style={{width:'40%', background:'white'}}/>
-            <h4 class="mt-3">Why choose Gobs</h4>
-            <p class="cta-text">No credit checks, no hassle for the employer. Advances have never been so simple.</p>
-            </div>
+              <div class="col-md-6">
+              <div class="row text-center p-3">
 
-            <div class="col-md-1"></div>
-            </div>
+<div class="col-md-4">
+  <img src="assets/img/Why choose Gobs.png" alt="" class="mr-1 mt-4" style={{width:'30%',}}/>
+<h5 class="mt-3" style={{color:'black',}}>Why choose Gobs</h5>
+<p class="cta-text">No credit checks, no hassle for the employer. Advances have never been so simple.</p>
 
-            <div class="row text-center p-3">
-            <div class="col-md-1"></div>
+</div>
 
-            <div class="col-md-3">
-              <img src="assets/img/lendsqr 1.png" alt="" class="mr-1 p-4 mt-4" style={{width:'40%', background:'white'}}/>
-            <h4 class="mt-3">Why choose Gobs</h4>
-            <p class="cta-text">No credit checks, no hassle for the employer. Advances have never been so simple.</p>
+<div class="col-md-4">
+  <img src="assets/img/Why choose Gobs (1).png" alt="" class="mr-1 mt-4" style={{width:'30%',}}/>
+<h5 class="mt-3" style={{color:'black',}}>Why choose Gobs</h5>
+<p class="cta-text">No credit checks, no hassle for the employer. Advances have never been so simple.</p>
+</div>
 
-            </div>
-            <div class="col-md-4">
-              <img src="assets/img/lendsqr 1.png" alt="" class="mr-1 p-4 mt-4" style={{width:'30%', background:'white'}}/>
-            <h4 class="mt-3">Why choose Gobs</h4>
-            <p class="cta-text">No credit checks, no hassle for the employer. Advances have never been so simple.</p>
-            </div>
-            <div class="col-md-3">
-              <img src="assets/img/lendsqr 1.png" alt="" class="mr-1 p-4 mt-4" style={{width:'40%', background:'white'}}/>
-            <h4 class="mt-3">Why choose Gobs</h4>
-            <p class="cta-text">No credit checks, no hassle for the employer. Advances have never been so simple.</p>
+<div class="col-md-4">
+  <img src="assets/img/Why choose Gobs (2).png" alt="" class="mr-1 mt-4" style={{width:'30%',}}/>
+<h5 class="mt-3" style={{color:'black',}}>Why choose Gobs</h5>
+<p class="cta-text">No credit checks, no hassle for the employer. Advances have never been so simple.</p>
+</div>
+
+
+</div>
+              </div>
+              <div class="col-md-3"></div>
             </div>
 
-            <div class="col-md-1"></div>
+            <div class="row text-center p-2">
+              <div class="col-md-3"></div>
+
+              <div class="col-md-6">
+              <div class="row text-center p-3">
+
+<div class="col-md-4">
+  <img src="assets/img/Why choose Gobs (3).png" alt="" class="mr-1 mt-4" style={{width:'30%',}}/>
+<h5 class="mt-3" style={{color:'black',}}>Why choose Gobs</h5>
+<p class="cta-text">No credit checks, no hassle for the employer. Advances have never been so simple.</p>
+
+</div>
+
+<div class="col-md-4">
+  <img src="assets/img/Why choose Gobs (4).png" alt="" class="mr-1 mt-4" style={{width:'30%',}}/>
+<h5 class="mt-3" style={{color:'black',}}>Why choose Gobs</h5>
+<p class="cta-text">No credit checks, no hassle for the employer. Advances have never been so simple.</p>
+</div>
+
+<div class="col-md-4">
+  <img src="assets/img/Why choose Gobs (5).png" alt="" class="mr-1 mt-4" style={{width:'30%',}}/>
+<h5 class="mt-3" style={{color:'black',}}>Why choose Gobs</h5>
+<p class="cta-text">No credit checks, no hassle for the employer. Advances have never been so simple.</p>
+</div>
+
+
+</div>
+              </div>
+              <div class="col-md-3"></div>
             </div>
+           
 
           </div>
         </div>
@@ -385,15 +400,15 @@ class Home extends React.Component{
           <p></p>
         </header>
 
-        <div class="row">
+        <div class="row p-2">
 
-          <div class="col-lg-8 d-flex justify-content-center ">
+          <div class="col-lg-8 d-flex justify-content-center">
             <div class="why-us-img">
-            <img class="d-block" src="assets/img/Yellow.png" alt="First slide" style={{position:'relative'}}/>
+            <img class="d-block" src="assets/img/Mockup (1).png" alt="First slide" style={{position:'relative', width:'70%'}}/>
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-4 mt-5">
             <div class="why-us-content">
               <h3>Join the revoltion</h3>
               <h3>Download the app today!</h3>
@@ -429,7 +444,7 @@ class Home extends React.Component{
 
 <div class="col-lg-6 d-flex justify-content-center mb-2">
   <div class="why-us-img">
-  <img class="d-block" src="assets/img/Yellow.png" alt="First slide" style={{position:'relative'}}/>
+  <img class="d-block" src="assets/img/Mockup 1.png" alt="First slide" style={{position:'relative',width:'70%'}}/>
   </div>
 </div>
 

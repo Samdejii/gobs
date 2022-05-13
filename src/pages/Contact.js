@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 import { Link } from 'react-router-dom'
 
-export default function Contact() {
-  return (
-    <React.Fragment>
+class Contact extends React.Component{
+  render() {
+      return (
+    <body class="mobile-nav-active clearfix">
+      <button type="button" class="mobile-nav-toggle d-lg-none"><i class="fa fa-times"></i></button>
 
 
     <div id="container-fluid">
@@ -62,7 +64,7 @@ export default function Contact() {
     </div>
     </header>
   
-    
+    <main id="main">
     
     <div id="container-fluid" style={{height:'80vh',}}>
       <div class="container">
@@ -177,7 +179,7 @@ export default function Contact() {
     <a href="/#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
     
     
-    
+    </main>
     
     <script src="assets/lib/jquery/jquery.min.js"></script>
     <script src="assets/lib/jquery/jquery-migrate.min.js"></script>
@@ -198,7 +200,9 @@ export default function Contact() {
     
     </div>
     
-    
-        </React.Fragment>
-  )
+    </body>
+  );
 }
+}
+
+export default Contact;
